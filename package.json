@@ -1,0 +1,21 @@
+{
+  "name": "elementa-bots",
+  "version": "1.0.0",
+  "description": "telegram & line messenge bot",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/telegram.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kaiachain/ethers-ext": "^1.0.0",
+    "caver-js": "^1.12.2",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "sharp": "^0.33.5"
+  }
+}
